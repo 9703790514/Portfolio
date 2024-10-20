@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar / Profile Section -->
+        <div class="profile-sidebar">
+            <div class="profile-image">
+                <img src="IMG_20241019_175211.jpg" alt="Your Profile">
+            </div>
+            <h1>Your Name</h1>
+            <h2>Full-Stack Developer</h2>
+            <p>Passionate about building scalable web apps using the latest technologies.</p>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <a href="tel:+1234567890">📞 +91 9703790514/a>
+                <a href="mailto:youremail@gmail.com">📧 rambaburouthu514@gmail.com</a>
+                <a href="#">📍 Andhra Pradesh, India</a>
+            </div>
+
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+                <a href="#">Twitter</a>
+            </div>
+
+            <button class="resume-btn">Download Resume</button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Navigation Menu -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- About Section -->
+            <section id="about">
+                <h1>About Me</h1>
+                <p>Hello there! I’m thrilled to welcome you to my portfolio. I am a passionate and versatile full-stack developer with a keen interest in exploring the latest cutting-edge technologies.</p>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Project Name 1</h3>
+                            <p>This project is a full-stack web application that enables users to track their daily tasks...</p>
+                            <a href="#" target="_blank">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Project Name 2</h3>
+                            <p>This project showcases an e-commerce platform with advanced product filtering...</p>
+                            <a href="#" target="_blank">View Project</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Project Name 3</h3>
+                            <p>An interactive dashboard built using React and D3.js, featuring real-time data visualizations...</p>
+                            <a href="#" target="_blank">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <form action="#">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
